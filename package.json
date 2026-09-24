@@ -13,12 +13,14 @@
     "test:unit": "vitest run --dir src",
     "test:integration": "vitest run --dir tests",
     "test:coverage": "vitest run --coverage",
-    "test:e2e": "playwright test",
+    "test:e2e": "playwright test --project=e2e",
     "verifier-le-code": "eslint src",
     "security:audit": "npm audit --audit-level=high",
-    "security:secrets": "secretlint --secretlintignore .secretlintignore src"
+    "security:secrets": "secretlint --secretlintignore .secretlintignore src",
+    "test:a11y": "playwright test --project=a11y"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
     "@eslint/js": "^10.0.1",
     "@playwright/test": "^1.63.0",
     "@secretlint/secretlint-rule-preset-recommend": "^13.0.5",

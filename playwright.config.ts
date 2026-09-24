@@ -15,4 +15,8 @@ export default defineConfig({
     reuseExistingServer: true,
     timeout: 30_000,
   },
+  projects: [
+    { name: 'e2e', testIgnore: ['**/a11y/**'] },
+    { name: 'a11y', testMatch: ['**/a11y/**/*.spec.ts'] },
+  ],
 });

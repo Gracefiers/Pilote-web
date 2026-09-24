@@ -8,6 +8,7 @@
     "coverage": { "enabled": true, "required": true },
     "e2e": { "enabled": true, "required": true },
     "secrets": { "enabled": true, "required": true },
-    "audit": { "enabled": true, "required": true }
+    "audit": { "enabled": true, "required": true },
+    "a11y": { "enabled": true, "required": false }
   }
 }
