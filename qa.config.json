@@ -1,0 +1,13 @@
+{
+  "projectType": "web",
+  "checks": {
+    "lint": { "enabled": true, "required": true },
+    "typecheck": { "enabled": true, "required": true },
+    "unit": { "enabled": true, "required": true },
+    "integration": { "enabled": true, "required": true },
+    "coverage": { "enabled": true, "required": true },
+    "e2e": { "enabled": true, "required": true },
+    "secrets": { "enabled": true, "required": true },
+    "audit": { "enabled": true, "required": true }
+  }
+}
