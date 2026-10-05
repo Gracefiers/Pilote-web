@@ -7,8 +7,11 @@
     "integration": { "enabled": true, "required": true },
     "coverage": { "enabled": true, "required": true },
     "e2e": { "enabled": true, "required": true },
-    "secrets": { "enabled": true, "required": true },
+    "a11y": { "enabled": true, "required": false },
+    "visual": { "enabled": true, "required": false },
     "audit": { "enabled": true, "required": true },
-    "a11y": { "enabled": true, "required": false }
+    "secrets": { "enabled": true, "required": true },
+    "bundle": { "enabled": true, "required": false },
+    "lighthouse": { "enabled": true, "required": false }
   }
 }

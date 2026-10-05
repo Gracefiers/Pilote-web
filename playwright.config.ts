@@ -16,7 +16,8 @@ export default defineConfig({
     timeout: 30_000,
   },
   projects: [
-    { name: 'e2e', testIgnore: ['**/a11y/**'] },
+    { name: 'e2e', testIgnore: ['**/a11y/**', '**/visual/**'] },
     { name: 'a11y', testMatch: ['**/a11y/**/*.spec.ts'] },
+    { name: 'visual', testMatch: ['**/visual/**/*.spec.ts'] },
   ],
 });
